@@ -154,20 +154,17 @@ public class Main {
 
 		
 		new_acc = new Accounts(500, AccountType.checking);
-		all_accounts.add(new_acc);
-		
+		all_accounts.add(new_acc);		
 		add_acc_to_cli(all_clients,new_acc,1);
 
 		
 		new_acc = new Accounts(2000, AccountType.checking);
-		all_accounts.add(new_acc);
-		
+		all_accounts.add(new_acc);		
 		add_acc_to_cli(all_clients,new_acc,3);
 
 
 		new_acc = new Accounts(30000, AccountType.saving);
-		all_accounts.add(new_acc);
-		
+		all_accounts.add(new_acc);		
 		add_acc_to_cli(all_clients,new_acc,2);
 
 		
