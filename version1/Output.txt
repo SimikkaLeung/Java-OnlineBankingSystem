@@ -1,0 +1,73 @@
+----------------------------------------------------------------
+Welcome to the online banking system built by Simikka Leung.
+----------------------------------------------------------------
+
+Task 1: Create new clients.
+[
+1 (Tom) has 0 accounts: , 
+2 (Anna) has 0 accounts: , 
+3 (John) has 0 accounts: ]
+
+Task 2: Retrieve the password of the client 1.
+tom123
+
+Task 3: Create new accounts and aassociate the account ids with clients.
+[
+1 (Tom) has 1 accounts: 2	, 
+2 (Anna) has 2 accounts: 1	4	, 
+3 (John) has 1 accounts: 3	]
+
+Task 4: Tom wants to withdraw money from his first account.
+Before the withdrawal, the account has $500.0
+You have withdrawn $100.0 successfully.
+
+The history of account 2:
+The account was created on 2022-10-31T08:22:34.672710700 and its initial balance was $500.0.
+$100.0 was withdrawn on 2022-10-31T08:22:34.672710700.
+The current balance is $400.0.
+
+
+Task 5: Anna wants to deposit money into her second account.
+Before the deposit, the account has $30000.0
+You have deposited $1000.0 successfully.
+
+The history of account 4:
+The account was created on 2022-10-31T08:22:34.672710700 and its initial balance was $30000.0.
+$1000.0 was deposited on 2022-10-31T08:22:34.672710700.
+The current balance is $31000.0.
+
+
+Task 6: Anna wants to send money to Tom.
+Before the transfer, the account of the sender has $31000.0
+You have transferred $888.0 to account 2 successfully.
+
+The history of account 4:
+The account was created on 2022-10-31T08:22:34.672710700 and its initial balance was $30000.0.
+$1000.0 was deposited on 2022-10-31T08:22:34.672710700.
+$888.0 was sent to account 2 on 2022-10-31T08:22:34.672710700.
+The current balance is $30112.0.
+
+
+Task 7: Print the history of all accounts.
+[
+The history of account 1:
+The account was created on 2022-10-31T08:22:34.665727200 and its initial balance was $1000.0.
+The current balance is $1000.0.
+, 
+The history of account 2:
+The account was created on 2022-10-31T08:22:34.672710700 and its initial balance was $500.0.
+$100.0 was withdrawn on 2022-10-31T08:22:34.672710700.
+$888.0 was deposited by account 4 on 2022-10-31T08:22:34.673708300.
+The current balance is $1288.0.
+, 
+The history of account 3:
+The account was created on 2022-10-31T08:22:34.672710700 and its initial balance was $2000.0.
+The current balance is $2000.0.
+, 
+The history of account 4:
+The account was created on 2022-10-31T08:22:34.672710700 and its initial balance was $30000.0.
+$1000.0 was deposited on 2022-10-31T08:22:34.672710700.
+$888.0 was sent to account 2 on 2022-10-31T08:22:34.672710700.
+The current balance is $30112.0.
+]
+
